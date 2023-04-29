@@ -5,6 +5,7 @@
 
 from .normalization import NormalizationMethod
 from .post_process import (
+    ADAPTIVE_THRESHOLD_METHOD_MAP,
     ThresholdMethod,
     add_anomalous_label,
     add_normal_label,
@@ -24,4 +25,5 @@ __all__ = [
     "NormalizationMethod",
     "Visualizer",
     "ThresholdMethod",
+    "ADAPTIVE_THRESHOLD_METHOD_MAP",
 ]
